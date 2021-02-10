@@ -1,7 +1,9 @@
 // product-item.js
 
 class ProductItem extends HTMLElement {
-  // TODO
+  constructor() {
+    super()
+  }
 }
 
 customElements.define('product-item', ProductItem);
